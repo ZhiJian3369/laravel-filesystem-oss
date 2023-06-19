@@ -10,9 +10,15 @@
     ],
     "require": {
         "php": "^8.0.2",
-        "iidestiny/flysystem-oss": "^4.1",
+        "iidestiny/flysystem-oss": "dev-dev-4.1.1",
         "laravel/framework": "^9.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ZhiJian3369/flysystem-oss"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Iidestiny\\LaravelFilesystemOss\\": "src"
